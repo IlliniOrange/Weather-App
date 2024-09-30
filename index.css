@@ -19,6 +19,7 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 5px;
+    width: auto;
     
 }
 
@@ -34,5 +35,5 @@ button {
 
 #zipinput-el {
     padding: 4px;
-    width: 400px;
+    width: auto;
 }
