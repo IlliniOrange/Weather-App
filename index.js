@@ -18,7 +18,7 @@ async function getWeather(zip) {
       throw new Error(`Response status: ${response.status}`);
     }
     const json = await response.json(); // Parse JSON
-    tempEl.textContent = json.current.temp_f  // Display temperature
+    tempEl.textContent = json.current.temp_f + "F"  // Display temperature
     headerEl.textContent = json.location.name + ", " + json.location.region // Display city name and state
     conditionsEl.textContent = "Conditions are " + json.current.condition.text + ", with the winds out of the " + json.current.wind_dir + " at " + json.current.wind_mph + "mph"  // Display conditions
     conditions2El.textContent = "Visibility is " + json.current.vis_miles + " miles"  // Display visibility

@@ -8,6 +8,7 @@ h1 {
     margin-top: 20px;
     padding: px;
     margin-bottom: 0px;
+    font-size: 70px;
 }
 
 button {
@@ -27,7 +28,7 @@ button {
 }
 
 #temp-el {
-    font-size: 60px;
+    font-size: 80px;
     padding: 0px;
 }
 
