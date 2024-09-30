@@ -20,7 +20,9 @@ button {
     padding-right: 10px;
     margin-top: 5px;
     width: 400px;
+    height: 100px;
     font-size: 30px;
+    border-radius: 5px;
     
 }
 
@@ -36,9 +38,13 @@ button {
 
 #zipinput-el {
     padding: 4px;
-    width: auto;
-    font-size: 30px;
+    width: 400px;
+    font-size: 40px;
     border-width: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    height: 60px;
 }
 
 .conditions {
