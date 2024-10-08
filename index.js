@@ -1,6 +1,5 @@
-// javascript
+// Initialize DOM variables
 
-let zipCode = "84020"
 const headerEl = document.getElementById("header-el")
 const tempEl = document.getElementById("temp-el")
 const zipInputEl = document.getElementById("zipinput-el")
